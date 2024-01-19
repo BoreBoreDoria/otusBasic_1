@@ -3,7 +3,7 @@ package ru.otus.basic;
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
+public class HomeWork1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число от 1 до 5: ");
