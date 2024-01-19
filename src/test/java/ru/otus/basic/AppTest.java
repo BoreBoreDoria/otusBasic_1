@@ -1,4 +1,4 @@
-package org.example;
+package ru.otus.basic;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

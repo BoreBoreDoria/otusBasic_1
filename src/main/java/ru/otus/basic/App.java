@@ -1,4 +1,4 @@
-package org.example;
+package ru.otus.basic;
 
 import java.util.Random;
 import java.util.Scanner;
