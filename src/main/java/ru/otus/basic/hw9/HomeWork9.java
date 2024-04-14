@@ -8,7 +8,7 @@ import java.util.List;
 public class HomeWork9 {
     public static void main(String[] args) {
         // Пример использования метода generateRange
-        ArrayList<Integer> range = generateRange(1, 10);
+        List<Integer> range = generateRange(1, 10);
         System.out.println("Диапазон чисел от 1 до 10: " + range);
 
         // Пример использования метода sumGreaterThanFive
@@ -48,8 +48,8 @@ public class HomeWork9 {
         System.out.println("Самый молодой сотрудник: " + youngest.name + ", возраст: " + youngest.age);
     }
 
-    public static ArrayList<Integer> generateRange(int min, int max) {
-        ArrayList<Integer> range = new ArrayList<>();
+    public static List<Integer> generateRange(int min, int max) {
+        List<Integer> range = new ArrayList<>();
         for (int i = min; i <= max; i++) {
             range.add(i);
         }
