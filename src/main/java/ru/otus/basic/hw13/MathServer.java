@@ -7,7 +7,7 @@ import java.net.Socket;
 public class MathServer {
     private static final int PORT = 12345;
 
-    public static void startServer() throws IOException {
+    public static void startServer() {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
             System.out.println("Сервер запущен и ожидает подключений...");
 
